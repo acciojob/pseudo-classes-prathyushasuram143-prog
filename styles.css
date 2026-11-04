@@ -2,9 +2,14 @@
 :root{
 	background-color:rgb(135, 206, 235);
 	
+}p:first-child{
+	color:white;
+	background-color:black;
+}p:nth-child(2){
+	color:black;
 }
 
-p:nth-child(3) {
+p:last-child{
     color:red;
 }
 header{
